@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  BizTalk CAT Instrumentation Framework Controller
+  Copyright (C) 2010-Present Thomas F. Abraham. All Rights Reserved.
+  Licensed under the MIT License. See License.txt in the project root.
+-->
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build;PackageMain">
+  <PropertyGroup>
+    <Version>1_0_0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Main Include=".\src\Setup\release\BizTalkCATInstrumentationController.msi" />
+  </ItemGroup>
+  
+  <Target Name="Build">
+    <Exec Command='devenv.com src\BizTalkCatInstrumentationController.sln /Rebuild "Release"' ContinueOnError="false" />
+  </Target>
+
+  <Target Name="PackageMain">
+    <Delete Files="Staging\BizTalkCatInstrumentationControllerV$(Version).msi" />
+    <Copy SourceFiles="@(Main)" DestinationFiles="Staging\BizTalkCatInstrumentationControllerV$(Version).msi" />
+  </Target>
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkCatInstrumentationController", "App\BizTalkCatInstrumentationController.csproj", "{BA59C549-37E0-41B4-B54F-E66E204A17FA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{F36F39B5-180E-4601-9BF5-3119A0FB259D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA59C549-37E0-41B4-B54F-E66E204A17FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA59C549-37E0-41B4-B54F-E66E204A17FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA59C549-37E0-41B4-B54F-E66E204A17FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA59C549-37E0-41B4-B54F-E66E204A17FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36F39B5-180E-4601-9BF5-3119A0FB259D}.Debug|Any CPU.ActiveCfg = Debug
+		{F36F39B5-180E-4601-9BF5-3119A0FB259D}.Release|Any CPU.ActiveCfg = Release
+		{F36F39B5-180E-4601-9BF5-3119A0FB259D}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
