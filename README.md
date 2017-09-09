@@ -3,7 +3,9 @@ The BizTalk CAT Instrumentation Framework Controller is an easy-to-use GUI for t
 
 The BizTalk CAT Instrumentation Framework is a high performance tracing/logging framework for BizTalk that builds upon the Event Tracing for Windows (ETW) infrastructure. It was created by Microsoft's BizTalk Customer Advisory Team (CAT). Microsoft used essentially the same framework to instrument BizTalk itself, as well as many recently released adapters.
 
-The BizTalk CAT team has posted several blog entries about the Framework. Get the BizTalk CAT Instrumentation Framework here.
+The BizTalk CAT team has posted [several blog entries](https://blogs.msdn.microsoft.com/appfabriccat/) about the Framework.
+
+**Get the BizTalk CAT Instrumentation Framework [here](https://github.com/tfabraham/BizTalkCATIFController/blob/master/tools/BizTalkCATInstrumentationFrameworkV1_4.zip).**
 
 The downside of the CAT Instrumentation Framework is that starting and stopping traces requires running command-line scripts, and by default the log data is viewable in a text file only after a trace is stopped. Many BizTalk developers are accustomed to using Trace.WriteLine() or Debug.WriteLine() in combination with the Microsoft SysInternals DebugView tool to see diagnostic messages in real time.
 
