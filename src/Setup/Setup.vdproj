@@ -183,6 +183,17 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_36D59B0221B44F5697FE4E243C5676AA"
+                    {
+                    "Name" = "8:ETWTools"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_1B8E4CA782DD4873B4894279006BB4F5"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_964D83DDAB43472FAE2CB3D3570B705C"
@@ -224,7 +235,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:BizTalk CAT Instrumentation Framework Controller 1.0"
         "ProductCode" = "8:{17B49F55-39A7-4080-A34A-AA9032CE1115}"
-        "PackageCode" = "8:{B8499ADE-590F-4D96-BA47-53D40F63D2B2}"
+        "PackageCode" = "8:{415F41F6-FE9C-45C9-B2BC-5E07479C15F2}"
         "UpgradeCode" = "8:{A646DC68-AB21-4AA3-AB9A-460B4F047C09}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -799,6 +810,35 @@
                 {
                 }
             }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_804359C1CC484B25AEF84EE0040D9243"
+            {
+            "SourcePath" = "8:"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_36D59B0221B44F5697FE4E243C5676AA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:ContentFiles"
+            "OutputProjectGuid" = "8:{BA59C549-37E0-41B4-B54F-E66E204A17FA}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                "ExcludeFilter" = "8:LICENSE.*"
+                }
+            }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_972F9E27F5184212941BD27D59496462"
             {
             "SourcePath" = "8:"
@@ -825,6 +865,8 @@
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {
+                "ExcludeFilter" = "8:default*.*"
+                "ExcludeFilter" = "8:trace*.*"
                 }
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_CACD837EA09A4B94AC8760E55CFBC3F4"
