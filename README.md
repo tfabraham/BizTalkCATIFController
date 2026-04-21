@@ -1,3 +1,5 @@
+### With Microsoft BizTalk Server reaching end-of-life, this utility is no longer being maintained.
+
 # BizTalk CAT Instrumentation Framework Controller
 The BizTalk CAT Instrumentation Framework Controller is an easy-to-use GUI for the BizTalk CAT Instrumentation Framework. The Controller lets you start and stop a trace, adjust filter options, log to a file and/or enable real-time tracing to DebugView!
 
